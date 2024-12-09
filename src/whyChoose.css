@@ -1,0 +1,67 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch; /* Ensures children stretch to the same height */
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .image-container {
+    position: relative;
+    width: 50%;
+    display: flex; /* Makes the container flexible */
+    align-items: center; /* Center-align content vertically */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%; /* Ensures the image takes full height of the container */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89%;
+    height: 100%;
+    background-color: rgba(148, 172, 2, 0.26);
+    pointer-events: none;
+    margin-left: 31px;
+}
+  
+  .text-container {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers text content vertically */
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.explore-button {
+  background-color: #94ac02;
+  color: black;
+  padding: 0.8rem 2rem; /* Original padding retained */
+  border: none;
+  border-radius: 50px; /* Changed back to original 5px radius */
+  cursor: pointer;
+  width: 150px;
+}
+
+  

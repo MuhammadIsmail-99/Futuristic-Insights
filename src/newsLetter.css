@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #94ac02;
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 400;
+}
+
+.description {
+    font-size: 17px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 500px;
+    padding: 10px;
+    border: 1.5px solid #000000;
+    border-radius: 100px;
+    color: #000000;
+    text-align: center;
+    font-weight: 19.1;
+}
+
+.form-button { 
+    color: #000000;
+    padding: 10px 15px;
+    border: 1.5px solid #000000;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 520px;
+    background-color: white;
+    font-weight: 19.1;
+}
+
+.form-button:hover {
+    background-color: #94ac02;
+    border-color: #94ac02;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-left: 88px;
+}
+
+
+form{
+    width: 100%;
+}
